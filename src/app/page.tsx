@@ -6,6 +6,7 @@ import ServiceSection from '@/components/Services/ServiceSection'
 import Skills from '@/components/Skills/Skills'
 import TestimonialSection from '@/components/Testimonials/TestimonialSection'
 import { getAllProjects, getAllTestimonials } from '@/services'
+import AboutMe from '@/components/AboutMe/AboutMe'
 
 export default async function Home() {
   const projects = await getAllProjects()
@@ -16,6 +17,7 @@ export default async function Home() {
       <Hero />
       <Skills skills={skillList} />
       <div className="mx-auto my-8 max-w-[1200px] px-4 md:my-[3.75rem]">
+        <AboutMe />
         <ProjectSection projects={projects} />
         <ServiceSection />
         <TestimonialSection testimonials={testimonials} />
