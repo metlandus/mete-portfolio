@@ -8,10 +8,10 @@ import { Fira_Code } from 'next/font/google'
 
 const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
 
-const title = 'John Doe | Full-Stack Web Developer in Chicago'
+const title = 'Mete Civelek'
 
 const description =
-  "Skilled full-stack web developer in Chicago. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Hire me today!"
+  "Junior full-stack web developer from Turkey. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Get in contact!"
 
 const url = process.env.NEXT_PUBLIC_SITE_URL
 
@@ -27,14 +27,8 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: 'John Doe Portfolio',
+    siteName: 'Mete Civelek Portfolio',
     type: 'website',
-  },
-  twitter: {
-    title,
-    description,
-    card: 'summary_large_image',
-    creator: '@Basit_Miyanji',
   },
 }
 
