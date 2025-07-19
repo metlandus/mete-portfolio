@@ -2,13 +2,12 @@
 import {
   ExpressjsIcon,
   JavaScriptIcon,
-  NestjsIcon,
   NextjsIcon,
   NodejsIcon,
   ReactIcon,
-  SocketIcon,
   TailwindCSS,
   TypescriptIcon,
+  Mongodb,
 } from '../utils/icons'
 
 // Project Data
@@ -126,12 +125,12 @@ export const skillList = [
     icon: ExpressjsIcon,
   },
   {
-    name: 'Nest.js',
-    icon: NestjsIcon,
+    name: 'MongoDB',
+    icon: Mongodb,
   },
   {
-    name: 'Socket.io',
-    icon: SocketIcon,
+    name: 'TailwindCSS',
+    icon: TailwindCSS,
   },
 ]
 

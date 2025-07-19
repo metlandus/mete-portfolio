@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { BurgerIcon, CloseIcon } from '../../utils/icons'
 import Logo from './Logo'
@@ -10,6 +9,10 @@ const navItems = [
   {
     label: '_home',
     href: '/',
+  },
+  {
+    label: '_about_me',
+    href: '/#aboutme',
   },
   {
     label: '_projects',
@@ -27,7 +30,6 @@ const navItems = [
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false)
-  const pathname = usePathname()
 
   const toggleMenu = () => {
     setIsVisible(!isVisible)
