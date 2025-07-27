@@ -5,5 +5,5 @@
   "cover": "",
   "livePreview": "https://travel-trucks-lyart-mu.vercel.app/",
   "githubLink": "https://github.com/metlandus/Travel-trucks",
-  "techStack": ["react"]
+  "techStack": ["react", "tailwindcss"]
 }

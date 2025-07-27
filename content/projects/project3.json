@@ -3,7 +3,7 @@
   "title": "Money Guard",
   "shortDescription": "A finance app with authentication functionality that allows users to add, review, filter, and visualize their income and expenses.",
   "cover": "",
-  "role":"Team Lead",
+  "role": "Team Lead",
   "livePreview": "https://money-guard-finovators.vercel.app/login",
   "githubLink": "https://github.com/GoIT-Grup-B/Money-Guard",
   "techStack": ["react", "javascript"]
