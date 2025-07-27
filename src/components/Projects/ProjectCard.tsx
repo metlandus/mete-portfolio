@@ -14,21 +14,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
-  const {
-    title,
-    shortDescription,
-    visitors,
-    earned,
-    ratings,
-    githubStars,
-    numberOfSales,
-    livePreview,
-    githubLink,
-    siteAge,
-    type,
-    cover,
-    techStack,
-  } = data
+  const { title, shortDescription, livePreview, githubLink, type, cover, techStack } = data
 
   return (
     <div className="bg-secondary border-border flex flex-col justify-between rounded-[14px] border p-5">

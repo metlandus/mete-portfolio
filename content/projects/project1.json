@@ -1,11 +1,9 @@
 {
   "priority": 1,
   "title": "Green Harvest",
-  "shortDescription": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
+  "shortDescription": "My first group project, a simple static website that mimics an e-commerce platform for organic food delivery.",
+  "cover": "",
   "livePreview": "https://tech-titans-tt.github.io/Green-Harvest/",
   "githubLink": "https://github.com/Tech-Titans-TT/Green-Harvest",
-  "type": "Client Work 🙍‍♂️",
-  "siteAge": "1 month old",
   "techStack": ["html", "css"]
 }

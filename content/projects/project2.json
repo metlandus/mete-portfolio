@@ -1,10 +1,9 @@
 {
   "priority": 2,
   "title": "Tasty Treats",
-  "shortDescription": "A programming related article site to share my learnings",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned",
+  "shortDescription": "A recipe finder app built with HTML, CSS, and JavaScript, featuring advanced filtering and pagination logic.",
+  "cover": "",
+  "livePreview": "https://rocket-raccoons.github.io/tasty-treats/",
+  "githubLink": "https://github.com/rocket-raccoons/tasty-treats",
   "techStack": ["html", "css", "javascript"]
 }
