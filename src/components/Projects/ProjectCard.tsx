@@ -62,9 +62,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                 <Image
                   src={iconMap[tech]}
                   alt={tech}
-                  width={18}
-                  height={18}
-                  className="h-[18px] w-[18px]"
+                  width={36}
+                  height={36}
+                  //   className="h-[18px] w-[18px]"
                 />
               </li>
             ))}
