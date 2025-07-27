@@ -27,6 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
     siteAge,
     type,
     cover,
+    techStack,
   } = data
 
   return (
@@ -43,14 +44,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             )}
           </div>
           <ul className="mt-3 flex flex-col flex-wrap gap-2 sm:flex-row sm:gap-4">
-            {(visitors || numberOfSales) && (
+            {techStack && techStack.map((el, index) => <li key={index}>{el}</li>)}
+            {/* {(visitors || numberOfSales) && (
               <IconText text={(visitors || numberOfSales)?.toString() || ''} icon={Likes} />
             )}
             {siteAge && <IconText text={siteAge} icon={Timer} />}
             {earned && <IconText text={earned} icon={Earning} />}
             {(ratings || githubStars) && (
               <IconText text={(ratings || githubStars)?.toString() || ''} icon={Star} />
-            )}
+            )} */}
           </ul>
         </div>
         <figure className="flex justify-end overflow-hidden">

@@ -1,6 +1,6 @@
 {
-  "priority": 4,
-  "title": "Slim Mom",
+  "priority": 5,
+  "title": "Travel Trucks",
   "shortDescription": "Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1598035107/pomodoro-clock_ctp2af.png",
   "type": "New 🔥",
@@ -9,5 +9,5 @@
   "visitors": "100 Visitors",
   "githubLink": "",
   "earned": "",
-  "techStack": ["react", "nodejs", "express", "mongodb"]
+  "techStack": ["react"]
 }
