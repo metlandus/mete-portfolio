@@ -13,6 +13,8 @@ import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
 import Mongodb from '../assets/icons/mongodb.svg'
+import Html from '../assets/icons/html.svg'
+import Css from '../assets/icons/css.svg'
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -314,10 +316,12 @@ export {
   ChevronRightIcon,
   CloseIcon,
   Codepen,
+  Css,
   Earning,
   ExpressjsIcon,
   Facebook,
   GithubIcon,
+  Html,
   Instagram,
   JavaScriptIcon,
   Likes,

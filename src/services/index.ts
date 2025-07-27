@@ -23,7 +23,7 @@ const getAllProjects = async (): Promise<Project[]> => {
     )
 
     // Sort projects by priority
-    projects.sort((a, b) => a.priority - b.priority)
+    projects.sort((b, a) => a.priority - b.priority)
 
     return projects
   } catch (error) {
