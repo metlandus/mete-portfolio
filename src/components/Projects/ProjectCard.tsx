@@ -64,7 +64,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                   alt={tech}
                   width={36}
                   height={36}
-                  //   className="h-[18px] w-[18px]"
                 />
               </li>
             ))}
